@@ -1,1 +1,42 @@
-/* code here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  font-size: 1.2rem;
+  justify-content: center;
+  gap: 20px;
+}
+
+svg {
+  width: 30px;
+  height: auto;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+
+a:hover {
+  color: blue;
+  cursor: pointer;
+  transform: scale(1.2);
+  font-weight: 550;
+}
