@@ -38,7 +38,7 @@ a {
 }
 
 a:hover {
-  color: blue;
+  color: rgba(158, 5, 5, 0.741);
   cursor: pointer;
   transform: scale(1.2);
   font-weight: 550;
@@ -50,16 +50,99 @@ a:hover {
   padding: 2px 25px;
 }
 
-figure {
+.section-hero {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.hero-image {
+  width: 80%;
+  height: 400px;
+}
+
+article {
+  /* width: 1000px;
+  display: flex;
+  justify-content: center; */
+  text-align: center;
+  max-width: 80%;
+  margin: auto;
+}
+
+h2 {
+  text-shadow: 1px 1px black;
+}
+
+P {
+  margin: 20px;
+}
+
+.brand-about-us {
+  color: red;
+  font-weight: 600;
+}
+
+section,
+.h2-products {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.product-image {
   display: flex;
   justify-content: center;
 }
 
-img {
-  width: 300px;
-  height: 300px;
+figure {
+  display: block;
+  /* flex-direction: column;
+  gap: 10px; */
 }
 
-figcaption {
+.product-name {
+  font-size: 1.5rem;
+  font-weight: 600px;
+}
+
+img {
+  margin: 40px;
+  width: 300px;
+  height: 250px;
+}
+
+.product-information {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.discount {
+  color: red;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-shadow: 0.5px 0.5px black;
+}
+
+.new-price {
+  font-weight: 600;
+  /* text-shadow: 1px 1px black; */
+}
+
+form {
+  /* display: flex;
+  gap: 10px; */
+}
+
+.form-horizontal {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+footer {
+  background-color: red;
+  height: 30px;
   text-align: center;
 }

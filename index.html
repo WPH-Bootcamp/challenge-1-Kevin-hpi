@@ -17,10 +17,10 @@
       <nav>
         <ul>
             <li><a href="#">Home</li></a>
-            <li><a href="#">Product</li></a>
-            <li><a href="#">Service</li></a>
-            <li><a href="#">About</li></a>
-            <li><a href="#">Contact Us</li></a>
+            <li><a href="#Products">Product</li></a>
+            <li><a href="#Services">Service</li></a>
+            <li><a href="#About">About</li></a>
+            <li><a href="#Form">Contact Us</li></a>
         </ul>
       </nav>
       <button class="header-button">search</button>
@@ -35,39 +35,64 @@
         <section class="section-hero">
             <img class="hero-image" src="./asset/Assignment.jpg" alt="gambar makanan">
         </section>
-        <section>
+        <article id="About">
+            <h2>ABOUT US</h2>
+            <p>At <span class="brand-about-us">Hearthy</span>, we believe that true health is achieved through a perfect harmony of clean nutrition and purposeful movement. Our journey began with a simple mission: to bridge the gap between what you eat and how you train, providing a seamless path to an elevated lifestyle. We carefully source our premium proteins to ensure you receive the highest standard of nourishment, offering certified organic beef free from synthetic hormones, prebiotic-fed chicken that supports your gut health, and meticulously pasteurized eggs that guarantee both safety and rich nutrient density. By elevating the quality of your daily groceries, we provide the essential, clean fuel your body needs to thrive, recover, and sustain peak energy levels every single day.</p>
+            <p>Fueling your body is only the first step, which is why we complement our premium whole foods with elite, results-driven wellness services designed to transform your physical and mental strength. We empower your fitness journey through high-energy boxing cardio sessions that boost endurance, torch calories, and relieve stress, combined with personalized, expert-led diet coaching tailored specifically to your unique body type and lifestyle goals. We do not believe in short-term fads or restrictive diets; instead, we offer a sustainable, science-based approach to sustainable health. Whether you are stepping onto the mats for an intense workout or preparing a wholesome, nutrient-rich meal at home, we are your ultimate partner in building a stronger, healthier version of yourself from the inside out.</p>
+        </article>
+        <section id="Products">
+            <h2 class="h2-products">PRODUCTS</h2>
+            <div class="product-image">
             <figure>
                 <img src="./asset/Assignment_04.jpg" alt="beef">
+                <figcaption class="product-information">
+                    <span class="product-name">Organic Rib Eye</span>
+                    <del class="old-price">Rp 58.000</del>
+                    <span class="discount">Discount -27%</span>
+                    <span class="new-price">Rp 42.340</span>
+                </figcaption>
             </figure>
-            <figcaption> Organic Rib Eye</figcaption>
             <figure>
                 <img src="./asset/Assignment_05.jpg" alt="chicken">
+                <figcaption class="product-information">
+                    <span class="product-name">Prebiotic Chicken Leg</span>
+                    <del class="old-price">Rp 40.000</del>
+                    <span class="discount">Discount -19%</span>
+                    <span class="new-price">Rp 32.400</span>
             </figure>
-            <figcaption>Probiotic Chicken Leg</figcaption>
             <figure>
                 <img src="./asset/Assignment_06.jpg" alt="eggs">
+                 <figcaption class="product-information">
+                    <span class="product-name">Eggs</span>
+                    <del class="old-price">Rp 32.000</del>
+                    <span class="discount">Discount -33%</span>
+                    <span class="new-price">Rp 21.440</span>
             </figure>
-            <figcaption>Pasteurized Eggs</figcaption>
+            </div>
         </section>
-        <section>
+        <section id="Services">
             <img src="./asset/Assignment_07.jpg" alt="consultation">
             <img src="./asset/Assignment_08.jpg" alt="hyrox">
         </section>
-        <article>
-            <h2>About Us</h2>
-            <p>Fuel the Body. Train the Mind. Transform Your Life At Hearthy, we take a holistic approach to your health. We provide the premium fuel your body deserves—featuring certified organic beef, prebiotic chicken, and pasteurized eggs—sourced with the highest standards of purity and taste.But we don't stop at your plate. We empower your physical transformation through high-intensity cardio boxing classes and expert-led diet coaching. We are not just a brand; we are your daily lifestyle guide to eating cleaner, moving faster, and living better.</p>
-        </article>
-        <form action="form">
-            <label for="name">Name</label>
-            <input type="name" name="name" placeholder="input your name">
-            <label for="email">Email</label>
-            <input type="email" name="email" placeholder="input your email">
+        
+        <form id="Form" action="form">
+            <div class="form-horizontal">
+                <label for="name">Name:</label>
+                <input type="name" name="name" placeholder="input your name">
+                <label for="email">Email:</label>
+                <input type="email" name="email" placeholder="input your email">
+            </div>
             <div class="form-vertikal">
-                <label for="message">Message</label>
+                <label for="message">Message:</label>
                 <input type="text" name="message" placeholder="input your message here">
             </div>
         <button>submit</button>
         </form>
     </main>
+    <footer>
+        <p>&copy;jejen copyright all right reserved</p>
+    </footer>
   </body>
 </html>
+
+<!-- tambahkan text di sebelah services dan kotak box message --> 
