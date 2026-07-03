@@ -44,10 +44,9 @@ a:hover {
   font-weight: 550;
 }
 
-.header-button {
+.header-search {
   cursor: pointer;
   filter: blur(0.5px);
-  padding: 2px 25px;
 }
 
 .section-hero {
@@ -109,6 +108,7 @@ section,
 
 img {
   border: 2px solid black;
+  border-radius: 12px;
   margin: 30px;
   width: 350px;
   height: 300px;
@@ -175,20 +175,38 @@ h3 {
   margin: 20px;
 }
 
-*/ form {
+form {
   display: flex;
-  margin: 100px;
-  gap: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  margin: 50px;
+  max-width: 80%;
 }
 
 .form-horizontal {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   gap: 10px;
 }
 
+.form-vertikal,
+textarea {
+  width: 100%;
+  height: 150px;
+  resize: none;
+}
+
+.button-form {
+  padding: 10px 30px;
+}
+
 footer {
-  background-color: red;
-  height: 30px;
-  text-align: center;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  text-transform: capitalize;
 }
